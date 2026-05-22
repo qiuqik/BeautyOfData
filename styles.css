@@ -21,6 +21,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 62px;
 }
 
 body {
@@ -36,7 +37,10 @@ a {
 
 .hero {
   position: relative;
-  min-height: 86vh;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  min-height: 100svh;
   overflow: hidden;
   background: #fbfaf6;
   isolation: isolate;
@@ -49,7 +53,7 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: center bottom;
 }
 
 .hero__shade {
@@ -57,24 +61,32 @@ a {
   inset: 0;
   z-index: -1;
   background:
-    linear-gradient(90deg, rgba(248, 247, 243, 0.98) 0%, rgba(248, 247, 243, 0.86) 36%, rgba(248, 247, 243, 0.3) 74%),
-    linear-gradient(180deg, rgba(248, 247, 243, 0.3) 0%, rgba(248, 247, 243, 1) 100%);
+    /* linear-gradient(90deg, rgba(248, 247, 243, 0.96) 0%, rgba(248, 247, 243, 0.78) 34%, rgba(248, 247, 243, 0.18) 72%), */
+    linear-gradient(180deg, rgba(248, 247, 243, 0.1) 0%, rgba(248, 247, 243, 1.0) 100%);
 }
 
 .topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: min(1180px, calc(100% - 40px));
+  width: 100%;
   margin: 0 auto;
-  padding: 24px 0;
+  padding: 8px max(20px, calc((100% - 1180px) / 2));
+  background: rgba(var(--bg-color), 0.9);
+  box-shadow: 0 8px 24px rgba(30, 34, 32, 0.08);
+  backdrop-filter: blur(.4rem);
+
 }
 
 .brand,
 .topbar__link {
   display: inline-flex;
   align-items: center;
-  min-height: 42px;
+  min-height: 34px;
   color: rgba(22, 24, 23, 0.8);
 }
 
@@ -93,13 +105,13 @@ a {
 
 .topbar__link {
   border-bottom: 1px solid rgba(22, 24, 23, 0.24);
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .hero__content {
   width: min(1180px, calc(100% - 40px));
-  margin: 12vh auto 0;
-  padding-bottom: 16vh;
+  margin: 0 auto;
+  padding: 62px 0 42px;
 }
 
 .eyebrow {
@@ -124,11 +136,40 @@ h1 {
   line-height: 0.95;
 }
 
+.title-gradient {
+  display: table;
+  background:
+    linear-gradient(
+      100deg,
+      #0f766e 0%,
+      #1f9f91 20%,
+      #c75c4d 42%,
+      #a88436 62%,
+      #3759b8 82%,
+      #0f766e 100%
+    );
+  background-size: 280% 100%;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: titleGradientFlow 8s ease-in-out infinite alternate;
+}
+
 .subtitle {
   margin-bottom: 28px;
-  color: rgba(22, 24, 23, 0.78);
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(26px, 4.4vw, 56px);
+}
+
+@keyframes titleGradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
 }
 
 .intro {
@@ -150,6 +191,7 @@ main {
   gap: 28px;
   align-items: end;
   margin-bottom: 22px;
+  scroll-margin-top: 62px;
 }
 
 h2 {
@@ -331,7 +373,8 @@ h2 {
 
 @media (max-width: 900px) {
   .hero {
-    min-height: 720px;
+    min-height: 100vh;
+    min-height: 100svh;
   }
 
   .controls,
@@ -347,7 +390,6 @@ h2 {
 }
 
 @media (max-width: 560px) {
-  .topbar,
   .hero__content,
   main,
   .footer {
@@ -355,11 +397,11 @@ h2 {
   }
 
   .topbar {
-    padding-top: 18px;
+    padding: 8px 14px;
   }
 
   .hero__content {
-    margin-top: 10vh;
+    padding-top: 58px;
   }
 
   .work-card {
