@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>数据之美 | Beauty of Data</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <img class="hero__image" src="assets/hero-beauty-of-data.png" alt="数据之美 Beauty of Data 课程主图" />
+      <div class="hero__shade"></div>
+      <nav class="topbar" aria-label="课程导航">
+        <a class="brand" href="#top" aria-label="数据之美首页">
+          <span class="brand__mark"></span>
+          <span>Beauty of Data</span>
+        </a>
+        <a class="topbar__link" href="#works">学生作品</a>
+      </nav>
+      <section class="hero__content" id="top">
+        <p class="eyebrow">本科生通识课</p>
+        <h1>数据之美</h1>
+        <p class="subtitle">Beauty of Data</p>
+        <p class="intro">
+          用数据讲述真实世界的结构、节奏与想象力。这里展示课程中的可视化叙事、交互作品、图像实验与视频表达。
+        </p>
+      </section>
+    </header>
+
+    <main>
+      <section class="controls" id="works" aria-labelledby="works-title">
+        <div>
+          <p class="eyebrow">Gallery</p>
+          <h2 id="works-title">学生作品</h2>
+        </div>
+        <div class="search">
+          <label for="query">搜索作品</label>
+          <input id="query" type="search" placeholder="输入标题或标签" autocomplete="off" />
+        </div>
+      </section>
+
+      <section class="filter-panel" aria-label="标签筛选">
+        <div class="tag-list" id="tagList"></div>
+        <p class="result-count" id="resultCount"></p>
+      </section>
+
+      <section class="gallery" id="gallery" aria-live="polite"></section>
+      <p class="empty" id="emptyState" hidden>没有找到匹配的作品。</p>
+    </main>
+
+    <footer class="footer">
+      <span>Beauty of Data</span>
+      <span>Demo site powered by JSON data</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
