@@ -1,56 +1,212 @@
 [
   {
-    "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1400&q=80",
-    "title": "城市呼吸：共享单车流动图谱",
+    "title": "大脑神经元可视化",
+    "category": "神奇的网络",
     "type": "图片",
-    "tags": ["城市", "可视化", "流动"]
+    "url": "http://nxxcxx.github.io/Neural-Network/",
+    "screenshot": "assets/cases/neural-network.png",
+    "tags": [
+      "网络"
+    ]
   },
   {
-    "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1400&q=80",
-    "title": "消费的季节性：校园咖啡账单观察",
+    "title": "全球海底光缆可视化",
+    "category": "神奇的网络",
     "type": "图片",
-    "tags": ["商业", "时间序列", "信息设计"]
+    "url": "https://he.net/3d-map/",
+    "screenshot": "assets/cases/submarine-cable-map.png",
+    "tags": [
+      "网络"
+    ]
   },
   {
-    "url": "https://www.youtube.com/watch?v=9bZkp7q19f0",
-    "title": "短视频热度的传播路径",
+    "title": "王者荣耀角色关系可视化",
+    "category": "神奇的网络",
+    "type": "图片",
+    "url": "https://pvp.qq.com/act/a20160510story/relavance.html",
+    "screenshot": "assets/cases/honor-of-kings-relations.png",
+    "tags": [
+      "网络"
+    ]
+  },
+  {
+    "title": "权利的游戏可视化",
+    "category": "神奇的网络",
+    "type": "图片",
+    "url": "https://jeffreylancaster.com/game-of-thrones/",
+    "screenshot": "assets/cases/game-of-thrones-viz.png",
+    "tags": [
+      "网络"
+    ]
+  },
+  {
+    "title": "欧洲皇室关系图",
+    "category": "神奇的网络",
+    "type": "图片",
+    "url": "https://royalconstellations.visualcinnamon.com/",
+    "screenshot": "assets/cases/royal-constellations.png",
+    "tags": [
+      "网络"
+    ]
+  },
+  {
+    "title": "宋词可视化",
+    "category": "文本的故事",
+    "type": "图片",
+    "url": "http://fms.news.cn/swf/2018_sjxw/quansongci/#/",
+    "screenshot": "assets/cases/songci-visualization.png",
+    "tags": [
+      "文本"
+    ]
+  },
+  {
+    "title": "书籍聚类可视化",
+    "category": "文本的故事",
     "type": "视频",
-    "tags": ["社交媒体", "网络", "传播"]
+    "url": "https://galaxy.opensyllabus.org/",
+    "screenshot": "assets/cases/open-syllabus-galaxy.png",
+    "tags": [
+      "文本"
+    ]
   },
   {
-    "url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
-    "title": "公园与城市温度：热岛现象的可视化",
+    "title": "解构藏文",
+    "category": "文本的故事",
     "type": "图片",
-    "tags": ["环境", "地图", "城市"]
+    "url": "http://www.shu-iids.com/ich-data-lab/project_story_decode_tibetan.html",
+    "screenshot": "assets/cases/decode-tibetan.png",
+    "tags": [
+      "文本"
+    ]
   },
   {
-    "url": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?auto=format&fit=crop&w=1400&q=80",
-    "title": "AI 关键词的十年变迁",
+    "title": "汉字星图",
+    "category": "文本的故事",
     "type": "图片",
-    "tags": ["AI", "文本分析", "趋势"]
+    "url": "https://hanziuniverse.com/",
+    "screenshot": "assets/cases/hanzi-universe.png",
+    "tags": [
+      "文本"
+    ]
   },
   {
-    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "title": "一首歌的情绪曲线",
+    "title": "视频指纹",
+    "category": "多媒体汇聚",
     "type": "视频",
-    "tags": ["音乐", "叙事", "情绪"]
+    "url": "https://cinemetrics.site/#/info",
+    "screenshot": "assets/cases/cinemetrics.png",
+    "tags": [
+      "多媒体"
+    ]
   },
   {
-    "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=80",
-    "title": "新闻标题里的城市想象",
-    "type": "图片",
-    "tags": ["文本分析", "媒体", "叙事"]
+    "title": "春晚重构",
+    "category": "多媒体汇聚",
+    "type": "视频",
+    "url": "https://cargocollective.com/zeeLab/CCTV-Gala-3-Opening-Redux",
+    "screenshot": "assets/cases/cctv-gala-redux.png",
+    "tags": [
+      "多媒体"
+    ]
   },
   {
-    "url": "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?auto=format&fit=crop&w=1400&q=80",
-    "title": "代码提交记录中的协作节奏",
+    "title": "风、气象、海洋可视化系统",
+    "category": "时空之旅",
     "type": "图片",
-    "tags": ["协作", "时间序列", "网络"]
+    "url": "https://earth.nullschool.net/",
+    "screenshot": "assets/cases/earth-nullschool.png",
+    "tags": [
+      "时空"
+    ]
   },
   {
-    "url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1400&q=80",
-    "title": "机器人影像中的人机关系",
+    "title": "Nature科学研究论文可视化",
+    "category": "科学探秘",
     "type": "图片",
-    "tags": ["AI", "图像", "叙事"]
+    "url": "https://www.nature.com/immersive/d41586-019-03165-4/index.html",
+    "screenshot": "assets/cases/nature-immersive-paper.png",
+    "tags": [
+      "科学"
+    ]
+  },
+  {
+    "title": "人类疾病网络",
+    "category": "科学探秘",
+    "type": "图片",
+    "url": "https://public.tableau.com/app/profile/anjushreebv/viz/HumanDiseaseNetwork/HumanDiseaseNetwork",
+    "screenshot": "assets/cases/human-disease-network.png",
+    "tags": [
+      "科学"
+    ]
+  },
+  {
+    "title": "科学可视化（体绘制）",
+    "category": "科学探秘",
+    "type": "图片",
+    "url": "https://www.willusher.io/webgl-volume-raycaster/#Engine",
+    "screenshot": "assets/cases/webgl-raycasting.png",
+    "tags": [
+      "科学"
+    ]
+  },
+  {
+    "title": "常见算法可视化 1",
+    "category": "AI",
+    "type": "图片",
+    "url": "https://visualgo.net/zh",
+    "screenshot": "assets/cases/visualgo.png",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "title": "常见算法可视化 2",
+    "category": "AI",
+    "type": "图片",
+    "url": "https://bost.ocks.org/mike/algorithms/",
+    "screenshot": "assets/cases/bostock-algorithms.png",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "title": "神经网络可视化",
+    "category": "AI",
+    "type": "图片",
+    "url": "https://playground.tensorflow.org/",
+    "screenshot": "assets/cases/tensorflow-playground.png",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "title": "CNN可视化示例1",
+    "category": "AI",
+    "type": "图片",
+    "url": "https://poloclub.github.io/cnn-explainer",
+    "screenshot": "assets/cases/cnn-explainer.png",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "title": "CNN可视化示例2",
+    "category": "AI",
+    "type": "图片",
+    "url": "https://convnetplayground.fastforwardlabs.com/#/models",
+    "screenshot": "assets/cases/convnet-playground.png",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "title": "GAN Visualization",
+    "category": "AI",
+    "type": "视频",
+    "url": "https://poloclub.github.io/ganlab/",
+    "screenshot": "assets/cases/ganlab.png",
+    "tags": [
+      "AI"
+    ]
   }
 ]
