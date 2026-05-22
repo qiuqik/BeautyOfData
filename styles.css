@@ -98,9 +98,11 @@ a {
 .brand__mark {
   width: 18px;
   height: 18px;
-  border: 2px solid var(--teal);
-  border-radius: 50%;
-  box-shadow: 10px 0 0 -5px var(--coral);
+  border-radius: 2px;
+  background:
+    linear-gradient(currentColor 0 0) left bottom / 4px 8px no-repeat,
+    linear-gradient(currentColor 0 0) center bottom / 4px 14px no-repeat,
+    linear-gradient(currentColor 0 0) right bottom / 4px 11px no-repeat;
 }
 
 .topbar__link {
