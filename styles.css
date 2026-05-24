@@ -75,7 +75,7 @@ a {
   justify-content: space-between;
   width: 100%;
   margin: 0 auto;
-  padding: 8px max(20px, calc((100% - 1180px) / 2));
+  padding: 8px max(20px, calc(10%));
   background: rgba(var(--bg-color), 0.9);
   box-shadow: 0 8px 24px rgba(30, 34, 32, 0.08);
   backdrop-filter: blur(.4rem);
@@ -92,6 +92,9 @@ a {
 
 .brand {
   gap: 12px;
+  /* padding: 0 20px;
+  background: rgba(22, 24, 23, 0.8);
+  color: #fff; */
   font-weight: 700;
 }
 
